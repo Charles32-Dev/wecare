@@ -1,0 +1,147 @@
+* {
+    font-family: "Montserrat", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0 217px 76px;
+}
+
+.button-header {
+    background: #665AE1;
+    border-radius: 20.5px;
+    width: 120px;
+    height: 30px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.explore-button {
+
+    background: rgba(173, 255, 0, 1);
+    border-radius: 30px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+
+}
+
+.link-header {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px;
+    text-align: left;
+    color: #989D9C;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.logo-image {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+
+}
+
+section {
+    margin-left: 86px;
+    display: inline-block;
+
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 121.9px;
+    color: #515151;
+}
+
+h2 {
+    width: 448px;
+    height: 71px;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 70.7px;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    color: #848484;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+@media screen and (max-width: 600px) {
+
+    main {
+        position: absolute;
+    }
+
+    header {
+        display: none;
+    }
+
+    .logo-image {
+        padding: 150px 22px 0 22px;
+        display: block;
+        width: 354px;
+        height: 317px;
+
+    }
+
+    h1 {
+        position: relative;
+        width: 263px;
+        height: 52px;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 60.95px;
+        color: #515151;
+        margin: 0 0 0 45%;
+    }
+
+    h2 {
+
+        position: relative;
+        font-size: 30px;
+        width: 232px;
+        height: 37px;
+        line-height: 36.57px;
+        margin: 0 0 0 45%;
+    }
+
+    p {
+        display: none;
+    }
+
+    .explore-button {
+        position: relative;
+        background: rgba(173, 255, 0, 1);
+        border-radius: 50px;
+        width: 239px;
+        height: 64px;
+        border: none;
+        cursor: pointer;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34px;
+        margin-top: 1rem;
+        margin-left: 45%;
+
+    }
+
+}
